@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Messages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Twitch Mesajları</h1>
+  <p>İstediğiniz bir kullanıcının Twitch mesajlarını görmek için kullanın.</p>
+
+  <div class="viewers">
+    <textarea id="nicknameInput" placeholder="Username" rows="1" cols="20">7aeshma</textarea>
+    <label for="nicknameInput">Kullanıcı adını girin</label>
+    <button onclick="showMessages()" class="roll-in-blurred-left">Mesajları Göster</button>
+  </div>
+  <span class="messageArea"></span>
+  <div id="totalMessages">
+  </div>
+  <div id="messages">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
