@@ -3,7 +3,7 @@
 
 ## How to use
 
-- **Follow this steps**: 
+**Follow this steps**: 
 <details>
 <summary>Open bot.js</summary>
 -DD username, password(TOKEN), channels(if you want more channel: 'channel1', 'channel2')
